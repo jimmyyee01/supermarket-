@@ -1,0 +1,2 @@
+ALTER TABLE supermarkets ADD COLUMN IF NOT EXISTS logo_path VARCHAR(255) NULL;
+ALTER TABLE supermarkets ADD COLUMN IF NOT EXISTS receipt_footer TEXT NULL;
